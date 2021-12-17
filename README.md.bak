@@ -32,10 +32,10 @@ Archiving of the data and DR application data transfer can be done over the inte
 
 ## Technical Requirements
 ..1 Web site: deploy a simple web site with back-end database running on a database server.
-..2 Data archive: ideally there should be a standby server in a separate availability zone and A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
+..2 Data archive: archive should be hosted locally on the database server and transfered to a cold storage hosted on a different Cloud platform with scheduled archive transfer and journaling solution. ideally there should be a standby server in a separate availability zone that will use the archived storage. A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
 ..3 Privileged access management
 .. User access: geo-restricted, limited to specific type of traffic.
-.. Web Administrator access: Access through the internet. Two factor authentication with remote secure access the Web Administration application (Apache).
+.. Web Administrator access: Access through the internet. Two factor authentication with remote secure access the Web Administration application (Apache?).
 .. Infrastructure Administrator access: access to the cloud infrastructure via two factor authentication (Azure, AWS).
 ..4 Native cloud firewall will be used along with other security features available.
 
