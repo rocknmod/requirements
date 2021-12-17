@@ -1,7 +1,6 @@
-# My Repo
+# Eternal Student
 - 👋 Hi, I’m @rocknmod
-- 👀 I’m interested in lots of things 
-- 🌱 I’m currently learning Public cloud deployment
+- I am deploying a new solution to host my CV on a simple website
 
 <!---
 rocknmod/rocknmod is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
