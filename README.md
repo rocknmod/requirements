@@ -12,13 +12,14 @@ This public cloud deployment should offer access to a simple website showcasing 
 2. How will the users consume those services? Will they use Internet access or will you have to provide a more dedicated connectivity solution?
 Users will consume the service over the internet. The website should be publicly hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU).
 3. Identify the data needed by the solution you're deploying. What data is shared with other applications? Where will the data reside?
-Data will mainly be static and there should be few interactions with other applications. Ideally hot storage should be hosted on a separate database within the same cloud provider as the application but cold storage should be hosted on a different Cloud platform with scheduled archive transfer and journaling solution.
+* Data will mainly be static and there should be few interactions with other applications. 
+* Hot storage should be hosted on a separate database within the same cloud provider as the application but cold storage should be hosted on a different Cloud platform with scheduled archive transfer and journaling solution.
 4. What are the security requirements of your application?
-..* Application will require privileged access for administrators.
-..* Limit traffic to only required ports/applications, ideally access will also be limited to regional customers (Europe).
-*Communication between Cloud deployments will be restricted to specific traffic
-*Monitoring and alerting should be in place to pro-actively add security enhancement and quickly identify incidents.
-*Ideally if the application is compromised we should be able to delete the virtual environment and recreate it from the scratch using backups and automation
+* Application will require privileged access for administrators.
+* Limit traffic to only required ports/applications, ideally access will also be limited to regional customers (Europe).
+* Communication between Cloud deployments will be restricted to specific traffic
+* Monitoring and alerting should be in place to pro-actively add security enhancement and quickly identify incidents.
+* Ideally if the application is compromised we should be able to delete the virtual environment and recreate it from the scratch using backups and automation
 5. What are the high availability requirements?
 * Ideally there should be a standby server in a separate availability zone. 
 * A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
