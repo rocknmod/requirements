@@ -40,7 +40,7 @@ Archiving of the data and DR application data transfer can be done over the inte
 * Web Administrator access: Access through the internet via secure connectivity (VPN, Cloudflare, other). Two factor authentication with remote secure access the Web Administration application (Apache?).
 * Infrastructure Administrator access: access to the cloud infrastructure via two factor authentication (Azure, AWS).
 4. Native cloud firewall will be used along with other security features available.
-5. DNS registrar and solution to protect the website domain
+5. DNS registrar and solution to protect the website domain and enhance availability.
 
 ## Time frames Requirements
 Need an available public cloud solution deployed by end of April 2022 for me to start looking out for a job.
