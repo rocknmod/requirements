@@ -1,7 +1,7 @@
 # Requirements
 
 ## Introduction
-After more than 7 years in New Zealand, I am planning to move back to Europe in June. I would like to create an alternative platform to showcase my work and personal development through a website created in a public cloud environment. 
+After more than 7 years in New Zealand, I am planning to move back to Europe in June 2022. I would like to create an alternative platform to showcase my work and personal development through a website created in a public cloud environment. 
 
 
 ## Business Requirements
