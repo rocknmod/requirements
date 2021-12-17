@@ -15,7 +15,8 @@ Users will consume the service over the internet. The website should be publicly
 * Data will mainly be static and there should be few interactions with other applications. 
 * Hot storage should be hosted on a separate database within the same cloud provider as the application but cold storage should be hosted on a different Cloud platform with scheduled archive transfer and journaling solution.
 4. What are the security requirements of your application?
-* Application will require privileged access for administrators.
+* Application will require privileged access for administrators and secure access via VPN or other solution.
+* DNS Domain name registrar for DNS management
 * Limit traffic to only required ports/applications, ideally access will also be limited to regional customers (Europe).
 * Communication between Cloud deployments will be restricted to specific traffic
 * Monitoring and alerting should be in place to pro-actively add security enhancement and quickly identify incidents.
@@ -36,9 +37,10 @@ Archiving of the data and DR application data transfer can be done over the inte
 2. Data archive: archive should be hosted locally on the database server and transfered to a cold storage hosted on a different Cloud platform with scheduled archive transfer and journaling solution. ideally there should be a standby server in a separate availability zone that will use the archived storage. A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
 3. Privileged access management
 * User access: geo-restricted, limited to specific type of traffic.
-* Web Administrator access: Access through the internet. Two factor authentication with remote secure access the Web Administration application (Apache?).
+* Web Administrator access: Access through the internet via secure connectivity (VPN, Cloudflare, other). Two factor authentication with remote secure access the Web Administration application (Apache?).
 * Infrastructure Administrator access: access to the cloud infrastructure via two factor authentication (Azure, AWS).
 4. Native cloud firewall will be used along with other security features available.
+5. DNS registrar and solution to protect the website domain
 
 ## Time frames Requirements
 Need an available public cloud solution deployed by end of April 2022 for me to start looking out for a job.
