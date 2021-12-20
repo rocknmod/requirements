@@ -20,7 +20,7 @@ Users will consume the service over the internet. The website should be publicly
 * Limit traffic to only required ports/applications, ideally access will also be limited to regional customers (Europe).
 * Communication between Cloud deployments will be restricted to specific traffic
 * Monitoring and alerting should be in place to pro-actively add security enhancement and quickly identify incidents.
-* Ideally if the application is compromised we should be able to delete the virtual environment and recreate it from the scratch using backups and automation
+* Ideally if the application is compromised we should be able to delete the virtual environment and recreate it from the scratch (immutable infrastructure)
 5. What are the high availability requirements?
 * Ideally there should be a standby server in a separate availability zone. 
 * A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
