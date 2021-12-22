@@ -8,7 +8,7 @@ After more than 7 years in New Zealand, I am planning to move back to Europe in 
 Currently working in Oceania and aiming to move to the UK this website is aiming to serve UK clients.
 Leaning multi-cloud deployment by having the solution
 1. What services should the public cloud deployment offer to the customers?
-This public cloud deployment should offer access to a simple website showcasing my updated CV/personal portfolio for customers in Europe.
+This public cloud deployment should offer access to a simple website, showcasing my updated CV/personal portfolio for customers regionaly based in Europe, using automated processes.
 2. How will the users consume those services? Will they use Internet access or will you have to provide a more dedicated connectivity solution?
 Users will consume the service over the internet. The website should be publicly hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU).
 3. Identify the data needed by the solution you're deploying. What data is shared with other applications? Where will the data reside?
@@ -41,7 +41,7 @@ Archiving of the data and DR application data transfer can be done over the inte
 * Infrastructure Administrator access: access to the cloud infrastructure via two factor authentication (Azure, AWS).
 4. Native cloud firewall will be used along with other security features available.
 5. DNS registrar and solution to protect the website domain and enhance availability.
-6. Continious developpement will be a key feeature of the solution to keep human maintenance and operation minimal.
+6. Continious developpement will be a key feature of the solution to keep human maintenance and operation minimal.
 
 ## Time frames Requirements
 Need an available public cloud solution deployed by end of April 2022 for me to start looking out for a job.
