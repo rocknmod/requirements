@@ -8,9 +8,9 @@ After more than 7 years in New Zealand, I am planning to move back to Europe in 
 Currently working in Oceania and aiming to move to the UK this website is aiming to serve UK clients.
 Leaning multi-cloud deployment by having the solution
 1. What services should the public cloud deployment offer to the customers?
-	This public cloud deployment should offer access to a simple website, showcasing my updated CV/personal portfolio for customers regionaly based in Europe, using automated processes.
+* This public cloud deployment should offer access to a simple website, showcasing my updated CV/personal portfolio for customers regionaly based in Europe, using automated processes.
 3. How will the users consume those services? Will they use Internet access or will you have to provide a more dedicated connectivity solution?
-	Users will consume the service over the internet. The website should be publicly hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU).
+* Users will consume the service over the internet. The website should be publicly hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU).
 5. Identify the data needed by the solution you're deploying. What data is shared with other applications? Where will the data reside?
 * Data will mainly be static and there should be few interactions with other applications. 
 * Hot storage should be hosted on a separate database within the same cloud provider as the application but cold storage should be hosted on a different Cloud platform with scheduled archive transfer and journaling solution.
