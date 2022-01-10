@@ -10,7 +10,7 @@ Leaning multi-cloud deployment by having the solution
 1. What services should the public cloud deployment offer to the customers?
 * This public cloud deployment should offer access to a simple website, showcasing my updated CV/personal portfolio for customers regionaly based in Europe, using automated deployment and operation.
 3. How will the users consume those services? Will they use Internet access or will you have to provide a more dedicated connectivity solution?
-* Users will consume the service over the internet. The website should be publicly hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU).
+* Users will consume the service over the internet. The website main region will be hosted in Europe to insure lower latency and to comply with privacy regulation of GDPR (EU) for EU clients. Another version of the website will be hosted in the Asia-Pacific Sydney region for customers in NZ.
 5. Identify the data needed by the solution you're deploying. What data is shared with other applications? Where will the data reside?
 * Data will mainly be static and there should be few interactions with other applications. 
 * Hot storage should be hosted on a separate database within the same cloud provider as the application but cold storage should be hosted on a different Cloud platform with scheduled archive transfer and journaling solution.
@@ -24,6 +24,7 @@ Leaning multi-cloud deployment by having the solution
 7. What are the high availability requirements?
 * Ideally there should be a standby server in a separate availability zone. 
 * A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
+* An active instance of the webside should be running on the Asia-Pacific region for customers in NZ.
 8. Do you have to provide connectivity to your on-premises data centre? If so, how will you implement it?
 * There is no need for a private connectivity. Only requirement is Administrative access from my workstation which does not require low latency.
 7. Do you have to implement connectivity to other (customer) sites? If so, how will you implement it?
@@ -42,6 +43,7 @@ Archiving of the data and DR application data transfer can be done over the inte
 5. Native cloud firewall will be used along with other security features available.
 6. DNS registrar and solution to protect the website domain and enhance availability.
 7. Automated deployment and operation will be a key feature of the solution to keep human maintenance and operation minimal.
+8. Active-Active application/website with instances in Europe and Asia-Pacific Region
 
 ## Time frames Requirements
 Need an available public cloud solution deployed by end of April 2022 for me to start looking out for a job.
