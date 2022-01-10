@@ -43,7 +43,7 @@ Archiving of the data and DR application data transfer can be done over the inte
 5. Native cloud firewall will be used along with other security features available.
 6. DNS registrar and solution to protect the website domain and enhance availability.
 7. Automated deployment and operation will be a key feature of the solution to keep human maintenance and operation minimal.
-8. Active-Active application/website with instances in Europe and Asia-Pacific Region
+8. Active-Active application/website with instances in Europe and Asia-Pacific regions
 
 ## Time frames Requirements
 Need an available public cloud solution deployed by end of April 2022 for me to start looking out for a job.
