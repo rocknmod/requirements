@@ -38,7 +38,7 @@ Archiving of the data and DR application data transfer can be done over the inte
 2. Data archive: archive should be hosted locally on the database server and transfered to a cold storage hosted on a different Cloud platform with scheduled archive transfer and journaling solution. Ideally there should be a standby server in a separate availability zone that will use the archived storage. A DR solution could be put in place into a separate cloud provider using automation/DNS load balancing.
 4. Privileged access management
 * User access: geo-restricted, limited to specific type of traffic.
-* Web Administrator access: Access through the internet via secure connectivity (VPN, Cloudflare, other). Two factor authentication with remote secure access the Web Administration application.
+* Web Administrator access: Access through the internet via secure connectivity (VPN, Cloudflare, other). Two factor authentication with remote secure access the Web Administration application (Hugo published on Cloudflare Pages or GitHub/GitLab Pages)
 * Infrastructure Administrator access: access to the cloud infrastructure via two factor authentication (Azure, AWS).
 5. Native cloud firewall will be used along with other security features available.
 6. DNS registrar and solution to protect the website domain and enhance availability.
